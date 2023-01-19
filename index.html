@@ -11,28 +11,36 @@
     <header>
         <!--This header will store the timer display as well as a link to display highscores-->
         <div class="viewHighscore">View Highscores</div>
-        <div class="timer">Time: <span>Time left will go here</span></div>
+        <div class="timer">Time: <span class="timer-count">Time left will go here</span></div>
     </header>
     <main>
         <div class="wrapper">
             <h1 class="titleQueston">Coding Quiz Challenge</h1>
             <div class="content">
+                <div class="subtitle">
                 <p>Try to answer the following code-related questions within the time limit. Keep in mind that incorrect answers will penalize your score/time by 15 seconds.</p>
-                <div class="buttons">
-                    <button type="button" class="startButton">Start</button>
-                    <button type="button" class="answer">Start</button>
-                    <button type="button" class="answer">Start</button>
-                    <button type="button" class="answer">Start</button>
-                    <button type="button" class="answer">Start</button>
+                </div>
+                    <div class="buttons">
+                        <button type="button" class="startButton">Start</button>
+                    </div>
+                    <div class="answerButtons">
+                        <button type="button" class="answer">Start</button>
+                        <button type="button" class="answer">Start</button>
+                        <button type="button" class="answer">Start</button>
+                        <button type="button" class="answer">Start</button>
+                    </div>
                     <div class="input">
                         <label for="highscoreInput">Highscore:</label>
                         <input type="text" name="highscoreInput" id="highscoreInput"/>
                         <button id="submitScore">Submit</button>
                     </div>
-                </div>
+                
                 <h2><em>Correct!</em></h2>
             </div>
         </div>
     </main>
+
+    <script src="./assets/script.js"></script>
+
 </body>
 </html>

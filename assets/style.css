@@ -24,4 +24,43 @@ main{
     justify-content: center;
     width: 600px;
 }
+.wrapper h1{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.wrapper .content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.content .subtitle {
+    text-align: center;
+}
+.buttons .startButton{
+    width: 100px;
+    color: white;
+    background: rgb(34, 7, 43);
+    border-radius: 10px;
+    border: 1px red solid;
+    font-size: 18px;
+    margin: 10px;
+}
+.buttons .startButton:hover{
+    background: darkgreen;
+}
+.answerButtons{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.answerButtons .answer{
+    width: 100px;
+    color: white;
+    background: rgb(34, 7, 43);
+    border-radius: 10px;
+    border: 1px red solid;
+    font-size: 18px;
+    margin: 10px;
+}
 
