@@ -63,4 +63,6 @@ main{
     font-size: 18px;
     margin: 10px;
 }
-
+#answer1, #answer2, #answer3, #answer4 {
+    display: none;  
+};
