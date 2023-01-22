@@ -36,6 +36,7 @@ main{
 }
 .content .subtitle {
     text-align: center;
+    visibility: visible;
 }
 .buttons .startButton{
     width: 100px;
